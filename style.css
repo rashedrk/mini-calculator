@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    
+}
+.cal-body{
+    height: 550px;
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+}
+.cal-display{
+    height: 120px;
+    text-align: right;
+    padding-right: 60px;
+}
+.cal-input{
+    height: 400px;
+    text-align: center;
+}
+button{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    flex: left;
+    border-radius: 50px;
+    border-width: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+.cal-history{
+    padding-top: 10px;
+}
+.number, .empty{
+    background-color: white;
+}
