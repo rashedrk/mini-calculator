@@ -1,18 +1,21 @@
 body{
-    background-color: black;
+    background-color: rgb(193, 207, 219);
     
 }
 .cal-body{
-    height: 550px;
-    width: 400px;
+    height: 520px;
+    width: 320px;
     background-color: white;
     margin: auto;
     margin-top: 50px;
+    border-radius: 10px;
 }
 .cal-display{
     height: 120px;
     text-align: right;
-    padding-right: 60px;
+    padding-right: 25px;
+    padding-top: 10px;
+    color: black;
 }
 .cal-input{
     height: 400px;
@@ -22,15 +25,39 @@ button{
     height: 50px;
     width: 50px;
     margin: 15px;
-    flex: left;
+    float: left;
     border-radius: 50px;
     border-width: 0;
     font-size: 15px;
     font-weight: bold;
-}
-.cal-history{
-    padding-top: 10px;
+
 }
 .number, .empty{
     background-color: white;
+}
+#division{
+    background-color: #f08080;
+    font-size: 20px;
+}
+#multipication{
+   
+   background-color: #ffa500; 
+   font-size: 20px;
+}
+#substraction{
+    
+    background-color: #7d93e0;
+    font-size: 20px;
+}
+#summation{
+    background-color: #9477af;
+    font-size: 20px;
+}
+#equal{
+    background-color: #20b2aa;
+    font-size: 20px; 
+}
+
+button{
+    cursor:pointer;
 }
