@@ -12,11 +12,22 @@ body{
 }
 .cal-display{
     height: 120px;
-    text-align: right;
-    padding-right: 25px;
-    padding-top: 10px;
-    color: black;
 }
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 25px;
+}
+
 .cal-input{
     height: 400px;
     text-align: center;
